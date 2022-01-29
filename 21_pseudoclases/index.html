@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Pseudoclases</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pseudoclases</h1>
+      <hr />
+    </header>
+
+    <a href="https://youtube.com" target="_blank"> Link externo </a>
+
+    <div>
+      <a href="#">Link interno</a>
+    </div>
+
+    <br /><br />
+    <!--
+
+my-input = "yes" or "no"
+my-chckbox  =   0 or 1
+my-select   =   "opt2"
+
+-->
+    <form action="grabar.php">
+      <div>
+        <input type="radio" name="my-input" id="yes" />
+        <label for="yes"> Si acepto</label>
+
+        <input type="radio" name="my-input" id="no" />
+        <label for="no">No. gracias</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="my-checkbox" id="opt-in" />
+        <label for="opt-in">Clickea aqui!</label>
+      </div>
+
+      <select name="my-select" id="fruit">
+        <option value="opt1">Manzanas</option>
+        <option value="opt2">Uvas</option>
+        <option value="opt3">Peras</option>
+      </select>
+    </form>
+  </body>
+</html>

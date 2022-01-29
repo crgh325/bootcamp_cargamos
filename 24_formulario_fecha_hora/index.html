@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      name="formulario"
+      action="send.php"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      Selecciona la fecha deseada
+      <input
+        type="date"
+        name="fecha"
+        min="2018-03-25"
+        max="2018-05-25"
+        step="3"
+      />
+
+      Selecciona hora deseada
+      <input
+        type="time"
+        name="hora"
+        min="18:00"
+        max="21:00"
+        step="3600"
+        list="times"
+      />
+
+      <datalist id="times">
+        <option value="17:00:00"></option>
+        <option value="18:00:00"></option>
+        <option value="19:00:00"></option>
+        <option value="20:00:00"></option>
+        <option value="21:00:00"></option>
+        <option value="22:00:00"></option>
+      </datalist>
+
+      selecciona el mes deseado
+      <input
+        type="month"
+        name="mes"
+        value="2018-05"
+        min="2018-02"
+        max="2018-06"
+        step="1"
+      />
+
+      Selecciona la semana deseada
+      <input
+        type="week"
+        name="semana"
+        value="2018-W18"
+        min="2018-W10"
+        max="2018-W20"
+        step="2"
+      />
+
+      <p>
+        Sexo:
+        <input type="radio" name="genero" value="H" />Hombre
+        <input type="radio" name="genero" value="M" /> Mujer
+      </p>
+
+      <input type="checkbox" name="empresa" checked />
+
+      <input type="checkbox" name="=empresa" checked />
+      ¿Eres autonomo/empresa?
+
+      <br /><br />
+      Selecciona la opción deseada
+      <select name="combo">
+        <option value="1">Opción 1</option>
+        <option value="2" selected>Opción 2</option>
+        <option value="3">Opción 3</option>
+      </select>
+      <br />
+      selecciona la opción deseada
+      <select name="combo" multiple>
+        <optgroup label="Opciones básicas">
+          <option value="1" label="Opción 1"></option>
+        </optgroup>
+
+        <optgroup label="Opciones avanzadas">
+          <option value="2" label="Opción 2"></option>
+          <option value="3" label="Opcion 3"></option>
+        </optgroup>
+      </select>
+      <br />
+
+      Selecciona la lista
+      <input type="text" list="items" />
+
+      <datalist id="items">
+        <option value="Luis">Luis</option>
+        <option value="Juan">Juan</option>
+        <option value="Pedro">Pedro</option>
+      </datalist>
+
+      <br />
+
+      Selecciona el color deseado:
+      <input type="color" name="color" value="#1BF44A" />
+
+      <br />
+      Adjunta tu CV
+      <input type="file" name="adjunto" accept=".pdf, .jpg, .png" multiple />
+<br>
+      <fieldset>
+        <legend>Datos personales</legend>
+
+        Nombre de usuario:
+        <input type="text" name="nombre" placeholder="Por ej. John" tabindex="3"/>
+
+        Apellidos:
+        <input type="text" name="apellidoe" placeholder="Por ej.Smith" tabindex="1"/>
+
+        Edad:
+        <input type="number" name="edad" min="18" max="100" placeholder="18" tabindex="2"/>
+
+        Sexo:
+        <input type="radio" name="sexo" value="H" /> Hombre
+        <input type="radio" name="sexo" value="M" /> Mujer
+      </fieldset>
+    </form>
+  </body>
+</html>

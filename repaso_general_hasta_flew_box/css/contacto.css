@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: azure;
+}
+
+#container {
+  height: 556px;
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+header {
+  background-color: beige;
+  width: 800px;
+  line-height: 75px;
+  text-align: center;
+}
+
+main {
+  background-color: khaki;
+  height: 430px;
+  width: 800px;
+}
+
+#leyenda {
+  color: rgb(63, 62, 62);
+  background-color: rgba(50, 196, 164, 0.568);
+  height: 400px;
+  width: 250px;
+  padding: 15px;
+  float: left;
+}
+
+#centro {
+  padding: 15px 10px;
+  background-color: rgb(98, 116, 201);
+  height: 400px;
+  width: 340px;
+  float: left;
+}
+
+nav {
+  height: 200px;
+  width: 160px;
+  float: left;
+  background-color: rgb(71, 182, 185);
+}
+
+nav ul li {
+  padding: 10px;
+  height: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: green;
+}
+
+footer div {
+  font-size: 15px;
+  line-height: 50px;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0; 
+ }
+ .container {
+     background-color: steelblue;
+     width: 80%;
+     height: 60vh;
+     margin: auto;
+     display: flex; 
+     flex-flow: row nowrap;
+     /* align-items: stretch; */
+}
+ 
+ .item{
+     background-color: grey;
+     border: 1px solid black;
+     box-sizing: border-box;
+     width: 25%;
+     color: white;
+     font-size: x-large;
+ }
+
+ .item:nth-child(2){
+    width: 30%;
+    background-color: blue;
+ }
+
+ /*al aplicar el nth:nth-child() no respeta el 
+ porcentaje real de la pantalla*/

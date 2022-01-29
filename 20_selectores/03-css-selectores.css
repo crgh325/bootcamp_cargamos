@@ -1,0 +1,30 @@
+h1, h2, .text-danger{
+    color: #ff0000;
+}
+
+p {
+    color: #0000ff;
+}
+
+.sombra{
+    border: 2px solid gainsboro;
+    margin-bottom: 15px;
+    box-shadow: 8px 8px 5px 0px gainsboro;
+}
+
+p .badge-black{
+    background-color: black;
+    color: #ffffff;
+}
+
+ul li{
+    color: #fcb606;
+    font-style: italic;
+}
+
+ol > li , .text-success{
+    font-style: normal;
+    color: green;
+    font-weight: bold;
+}
+

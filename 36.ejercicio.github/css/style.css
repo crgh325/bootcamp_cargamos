@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-blue{
+    background: #005c80;
+}
+
+.bg-grey1{
+    background: #d2d2d2;
+}
+
+.bg-grey2{
+    background: #e8e8e8;
+}
+
+body{
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color: white;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: column nowrap;
+
+}
+
+.container{
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    }
+
+.boton{
+    height: 25px;
+    width: 100px;
+    background: rgba(192, 192, 192, 0.527);
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.fle-nw{
+    flex-direction: nowrap;
+}
+
+.fle-raw{
+    flex-direction: wrap;
+}
+
+.jcc{
+    justify-content: center;
+}
+
+.aic{
+    align-items: center;
+}
+
+.aife{
+    align-items: flex-end;
+}
+
+.jcbetween{
+    justify-content: space-between;
+}
+
+.pad-5{
+    padding: 5px;
+}
+
+
+.pad-10{
+    padding: 10px;
+}
+
+.marg-5{
+    margin: 5px;
+}
+
+.marg-10{
+    margin: 10px;
+}
+
+.basis-25{
+    flex-basis: 25%;
+}
+
+.basis-50{
+    flex-basis: 50%;
+}
+
+.h-25{
+    height: 25vh;
+}
+
+.h-50{
+    height: 50vh;
+}
+
+.h-60{
+    height: 60vh;
+}
+
+.bsha{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+}
+
+.ml{
+    margin-left: 5%;
+}
+
+.shrink-0{
+    flex-shrink: 0; /*no reajustes tamaño*/
+}

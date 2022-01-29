@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fondo {
+  padding: 20px;
+  background-color: skyblue;
+  margin: auto;
+  margin-top: 50px;
+  height: 410px;
+  width: 920px;
+  position: relative;
+}
+
+.caja {
+  background-color: yellow;
+  position: absolute;
+  height: 100px;
+}
+
+.arriba > .caja:nth-child(1) {
+  width: 300px;
+}
+
+.arriba > .caja:nth-child(2) {
+  width: 600px;
+  left: 330px;
+}
+
+.cajas {
+  height: 80px;
+  width: 150px;
+  background-color: yellow;
+  position: absolute;
+}
+
+.medio > .cajas:nth-child(1) {
+  top: 130px;
+}
+
+.medio > .cajas:nth-child(2) {
+  top: 130px;
+  left: 180px;
+}
+
+.medio > .cajas:nth-child(3) {
+  top: 130px;
+  left: 340px;
+}
+
+.medio > .cajas:nth-child(4) {
+  top: 130px;
+  left: 500px;
+}
+
+.medio > .cajas:nth-child(5) {
+  height: 80px;
+  width: 270px;
+  top: 130px;
+  left: 660px;
+}
+
+.ca {
+  height: 200px;
+  background-color: yellow;
+  position: absolute;
+}
+
+.abajo > .ca:nth-child(1) {
+  width: 300px;
+  top: 220px;
+}
+
+.abajo > .ca:nth-child(2) {
+  width: 400px;
+  top: 220px;
+  left: 330px;
+}
+
+.abajo > .ca:nth-child(3) {
+  width: 190px;
+  top: 220px;
+  left: 740px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Montserrat:wght@500&family=Nunito:wght@600;700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>formulario 1</title>
+  </head>
+  <body>
+    <form name="formulario 1" action="send.php" method="post">
+      <div class="cabecera">
+        <h2>Simple Event Registration</h2>
+        <p>Fill out the form to register to our event</p>
+      </div>
+      <br>
+<hr>
+<br>
+      <div >
+        <label for="nombre" style="padding: 30px;">Name</label>
+        <span id="nombre" class="float_placeholder">
+          <input type="text" name="nombre" style="width: 145px;" />
+        </span>
+
+        <span id="apellido" class="float_placeholder">
+          <input type="text" name="apellido" style="width: 150px;"/>
+        </span>
+      </div>
+
+      <div >
+        <label for="title" style="padding: 37px;">Title</label>
+        <input type="text" name="title" style="width: 300px;" />
+      </div>
+
+      <div >
+        <label for="compañia" style="padding: 19px;">Company</label>
+        <input type="text" name="company" style="width: 300px;"/>
+      </div>
+
+      <div >
+        <label for="correo" style="padding: 30px;">E-mail</label>
+        <input type="email" name="mail" placeholder="ex: myname@example.com" style="width: 300px;"/>
+      </div>
+
+      <div >
+        <label for="" style="padding: 10px;">Phone Number</label>
+        <span id="area" class="float_placeholder">
+          <input type="text" name="area" />
+        </span>
+
+        <span id="margen" class="float_placeholder">
+          <input type="text" name="phone" />
+        </span>
+      </div>
+
+      <div>
+        <label>Are you an existin customer? </label>
+        
+        <input type="radio" name="yes" /> Yes
+        <input type="radio" name="no" /> No
+       
+      </div>
+
+      <div id="boton">
+        <button type="submit">Register</button>
+      </div>
+    </form>
+  </body>
+</html>

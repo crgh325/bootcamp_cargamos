@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form name="formulario" method="post" action="/send.php">
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label for="">Nombre de Usuario</label>
+        <input
+          type="text"
+          name="nombre"
+          value=""
+          placeholder="user123"
+          autocomplete="off"
+        />
+
+        <label for="">Numero de Teléfono</label>
+        <input type="tel" name="telefono" placeholder="+xx xxx xxxxx" />
+
+        <label for="">Correo electrónico</label>
+        <input type="email" name="correo" placeholder="nombre@dominio.com" />
+
+        <label for="">Página web</label>
+        <input type="url" name="web" placeholder="https://pagina.com" />
+
+        <label for="">Usuario</label>
+        <input type="text" name="nombre" placeholder="Por ejemplo Luis" />
+
+        <label for="">Contraseña</label>
+        <input type="password" name="pass" placeholder="Contraseña" />
+
+        <!-- <label for="">Oculto...</label> -->
+        <input type="hidden" name="información" value="72625" />
+
+        <label for="">Bio</label>
+        <textarea cols="15" rows="5" wrap="soft" spellcheck="true"> </textarea>
+        <!-- numero entre 10 y 50, por defecto 25 -->
+        <label for="">Edad</label>
+        <input
+          type="number"
+          name="Edad"
+          value="25"
+          min="10"
+          max="50"
+          step="5"
+        />
+        <!--  -->
+        <label for="">Min. 10 - Max. 50</label>
+        <input
+          type="range"
+          name="numrango"
+          value="25"
+          min="10"
+          max="50"
+          step="5"
+        />
+
+        <label for="">Acepto terminos y condiciones</label>
+        <input type="checkbox" name="tyc" />
+
+        <input type="submit" value="Enviar" />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+:root {
+  --color-primario: rgb(119, 182, 207);
+  --color-secundario: rgb(116, 197, 116);
+  --tamaño: 400px;
+}
+
+form button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+}
+
+form button:hover {
+  filter: brightness(80%);
+}

@@ -1,0 +1,33 @@
+* {
+    font-family: "Heebo", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  form {
+    margin: auto;
+    padding: 20px;
+    display:inline;
+  }
+  
+  input {
+    display: inline-block;
+    margin-top: 15px;
+    border: 2px solid darkgray;
+  }
+
+  h3{
+    font-size: x-large;
+    color:rgb(40, 40, 167);
+  }
+
+  label, select {
+    display: inline-block;
+    width: 100px;
+    width: 13.5%;
+    text-align: right;
+}
+ 
+.nombre, .apellido, .zip > input[type="text"]{
+  font-weight: bold;
+}

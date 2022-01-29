@@ -1,0 +1,27 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+ 
+/* para ejemplo 2 diapositiva 258*/
+
+.container {
+  background-color: steelblue;
+  margin: auto;
+  height: 50vh;
+  width: 90%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+  
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  color: white;
+  box-sizing: border-box;
+  font-size: x-large;
+  border: 2px solid black;
+}

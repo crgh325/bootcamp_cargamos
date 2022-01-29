@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #ffffff;
+}
+
+section{
+    margin: auto;
+    background-color: #f5eec5d3;
+    height: 460px;
+    width: 800px;
+}
+
+.tipo{
+    margin: 30px 50px;
+    padding: 10px;
+    height: 150px;
+    width: 250px;
+    border: 2px solid #5e5d5d;
+    box-shadow: 10px 10px 15px 5px #4e4e5396;
+    border-radius: 15px;
+}
+
+#deluxe{
+    background-color: #afc9bd;
+    float: left;
+}
+
+#business{
+    background-color: rgba(255, 127, 80, 0.534);
+    float: right
+}
+
+#turista{
+    float: left;
+    background-color: #42c7f380;
+    }
+
+#peregrino{
+    float: right;
+    background-color: #e09eff60;
+    clear: right;
+}
+
+#precio, h3{
+    text-align: right;
+    margin-right: 80px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{
+    margin-left: 70px;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+

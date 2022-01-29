@@ -1,0 +1,65 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ejemplo 1 diapo 256*/
+.container {
+  background-color: steelblue;
+  display: flex;
+  height: 400px;
+  width: 600px;
+  
+/* flex-flow -> <direccion> <desbordamiento>*/
+  /* flex-direction: row; por defecto*/
+  /*flex-wrap: nowrap; -> desactivar desboramiento UNA LINEA*/
+  /*flex-wrap: wrap; -> activar desboramiento MULTILINEA*/
+
+  flex-flow: row wrap;
+
+  /* ALINEACION VERTICAL MULTILINEA*/
+  /* POR DEFECTO: STRETCH*/
+  align-content: space-around;
+
+/* ALINEACION VERTICAL UNILINEA*/
+  /* POR DEFECTO: STRETCH*/
+  /* align-items: stretch; */
+
+
+ /*ALINEACION HORIZONTAL*/
+ /* POR DEFECTO: STRETCH*/
+ /* justify-content: flex-start;*/
+ /*por defecto, no cambia nada*/
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  color: white;
+  box-sizing: border-box;
+  font-size: x-large;
+  border: 2px solid black;
+}
+
+
+/* para ejemplo 2 diapositiva 258
+.container {
+    background-color: steelblue;
+    display: flex;
+    height: 400px;
+    width: 600px;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    font-size: x-large;
+    border: 2px solid black; */

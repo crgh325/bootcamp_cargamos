@@ -1,0 +1,15 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    background-color: aqua;
+    margin:auto;
+    padding: 5px;
+    border: 2px solid black;
+    width: 190px;
+}
+input, textarea{
+    display: block;
+    margin-bottom: 20px;    
+}

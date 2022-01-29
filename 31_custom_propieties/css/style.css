@@ -1,0 +1,32 @@
+@import url('vars.css');
+@import url('common.css');
+
+
+/* Tema personalizado */
+/* @import url('../../theme/index.css'); */
+/* Variables locales */
+/* @import url('local_vars.css'); */
+
+
+.box{
+    width: var(--tamaño,400px);
+    height: var(--tamaño,400px);
+    margin-bottom: 10px;
+    background-color: var(--color-primario,purple);
+}
+
+.circle{
+    width: var(--tamaño,400px);
+    height: var(--tamaño,400px);
+    border-radius: 50%;
+    background-color: var(--color-secundario);
+}
+
+
+
+
+/* Estilos locales */
+
+.bg-blue{
+    background: var(--color-blue);
+}

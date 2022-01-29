@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10%;
+  background-color: darkslategray;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+/* #caja1 {
+  background-color: rgb(144, 236, 236);
+}
+
+#caja2 {
+  background-color: goldenrod;
+  /* display: none; */
+/* visibility: visible; */
+/*  opacity: 0.5;
+}
+
+#caja3 {
+  background-color: lightcoral;
+} */
+
+.cajaA {
+  width: 400px;
+  height: 400px;
+  display: block;
+  background-color: skyblue;
+  position: absolute;
+}
+/*
+.cajaB {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  position: relative;
+  left: 50px;
+  top: 50px;
+} */
+/*
+.cajaB {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  position: relative;
+  left: -50px;
+  top: -50px;
+}
+ 
+.cajaB {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  position: relative;
+  left: 350px;
+  top: 350px;
+}*/
+
+.cajaB {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  position: relative;
+  left: 150px;
+  top: 150px;
+}

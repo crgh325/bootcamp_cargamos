@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10%;
+  background-color: darkslategray;
+}
+
+.padre {
+  width: 400px;
+  height: 400px;
+  display: block;
+  background-color: skyblue;
+  position: relative;
+}
+
+.hijo {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  position: absolute;
+}
+
+.hijo:nth-child(1) {
+  left: 300px;
+  top: 0px;
+}
+
+.hijo:nth-child(2) {
+  left: 150px;
+  top: 150px;
+}
+
+.hijo:nth-child(3) {
+  left: 0px;
+  top: 300px;
+}
+
+.nieto {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+}
+
+.nieto:nth-child(1) {
+  left: 25px;
+  top: 25px;
+}

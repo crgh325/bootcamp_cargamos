@@ -1,0 +1,59 @@
+@import url('vars.css');
+.mt-1{
+    margin-top: 10px;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
+.mt-4{
+    margin-top: 40px;
+}
+
+.mx-1{
+    margin: 0 5%;
+}
+
+.mx-2{
+    margin: 0 10%;
+}
+
+.my-2{
+    margin: 10% 0;
+}
+
+.my-3{
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.bg-beige{
+    background: rgb(245, 245, 220);
+}
+
+.bs-1{
+    box-shadow: 2px 2px 5px black;
+}
+
+.bg-primario{
+    background: var(--color-primario);
+}
+
+.bg-secundario{
+    background: var(--color-secundario);
+}
+
+
+.container-fluid{
+    padding: 10px;
+    margin: 0% 5%;
+}
+
